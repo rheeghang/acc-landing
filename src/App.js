@@ -123,7 +123,7 @@ const App = () => {
   }, [permissionGranted]);
 
   return (
-    <div className="text-center min-h-screen p-4">
+    <div className="text-center min-h-screen bg-white p-4">
       <Modal 
         isOpen={!permissionGranted && showModal}
         onClose={() => setShowModal(false)}
